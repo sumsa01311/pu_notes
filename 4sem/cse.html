@@ -2,436 +2,446 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Welcome</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/pu_notes/style.css">
-    <link rel="stylesheet" href="/pu_notes/pu.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="/pu_notes/jquery-simple-tree-table.js"></script>
+        <meta charset="UTF-8">
+        <title>Welcome</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/pu_notes/style.css">
+        <link rel="stylesheet" href="/pu_notes/pu.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="/pu_notes/jquery-simple-tree-table.js"></script>
 
-    <style>
-        body {
-            font: 14px sans-serif;
-            text-align: center;
-        }
-    </style>
+        <style>
+                body {
+                        font: 14px sans-serif;
+                        text-align: center;
+                }
+        </style>
 </head>
 
 <body>
-    <div class="container">
-        <div class="pu-content pu-padding-32 pu-center"
-            style="padding-right: 10px; padding-left: 10px; max-width: 600px">
-            <form class="ntable">
-                <h1 class="pu-xlarge pu-text-white">CSE Table</h1>
+        <div class="container">
+                <div class="pu-content pu-padding-32 pu-center"
+                        style="padding-right: 10px; padding-left: 10px; max-width: 600px">
+                        <form class="ntable">
+                                <h1 class="pu-xlarge pu-text-white">CSE Table</h1>
 
-                <button type="button" id="expander"
-                    class="pu-button pu-hover-pink pu-large pu-round-xsmall pu-transparent link">Expand</button>
-                <br>
-                <button type="button" id="collapser"
-                    class="pu-button pu-hover-pink pu-large pu-round-xsmall pu-transparent link">Collapse</button>
-                <br><br>
-                <table id="basic" border="2" class="table table-hover table-dark">
-                    <tr data-node-id="2077">
-                        <td class="pu-large"><a href="#">Mathematics</a></td>
-                        <td class="pu-large">module 1</td>
-                        <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link" href="Math/Module 1-Numerical solution of Algebraic and Transcendental Equations (1) (1).pdf"
-                                download>Download</a>
-                        </td>
-                        <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
-                                href="MAT2003_ Assignment 1_4CCS2.pdf">Read</a>
-                        </td>
-
-
-                    </tr>
-                    <tr data-node-id="2066" data-node-pid="2077">
-                        <td style="color:white"><a href="#"></a></td>
-                        <td class="pu-large" style="color:white">module 2</td>
-                        <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link" href="java01.ppt"
-                                download>Download</a>
-                        </td>
-                        <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
-                                href="MAT2003_ Assignment 1_4CCS2.pdf">Read</a>
-                        </td>
-
-                    </tr>
-                    <tr data-node-id="2068" data-node-pid="2077">
-                        <td style="color:white"><a href="#"></a></td>
-                        <td class="pu-large" style="color:white">module 3</td>
-                        <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link" href="java01.ppt"
-                                download>Download</a>
-                        </td>
-                        <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
-                                href="MAT2003_ Assignment 1_4CCS2.pdf">Read</a>
-                        </td>
-                    </tr>
-                    <tr data-node-id="2069" data-node-pid="2077">
-                        <td style="color:white"><a href="#"></a></td>
-                        <td style="color:white">module 4</td>
-                        <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link" href="java01.ppt"
-                                download>Download</a>
-                        </td>
-                        <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
-                                href="MAT2003_ Assignment 1_4CCS2.pdf">Read</a>
-                        </td>
-                    </tr>
-
-                    <tr data-node-id="1">
-                        <td class="pu-large" style="color:white"><a href="#">Data communication computer networks</a>
-                        </td>
-                        <td class="pu-large" style="color:white">module 1</td>
-                        <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
-                                href="CC/module-2.pptx" download>Download</a>
-                        </td>
-                        <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
-                                href="CC/module-2.pptx">Read</a>
-                        </td>
-
-                    <tr data-node-id="2" data-node-pid="1">
-                        <td style="color:white"><a href="#"></a></td>
-                        <td class="pu-large" style="color:white">module 2</td>
-                        <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link" href="java01.ppt"
-                                download>Download</a>
-                        </td>
-                        <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
-                                href="MAT2003_ Assignment 1_4CCS2.pdf">Read</a>
-                        </td>
-
-                    </tr>
-                    <tr data-node-id="3" data-node-pid="1">
-                        <td style="color:white"><a href="#"></a></td>
-                        <td style="color:white">module 3</td>
-                        <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link" href="java01.ppt"
-                                download>Download</a>
-                        </td>
-                        <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
-                                href="MAT2003_ Assignment 1_4CCS2.pdf">Read</a>
-                        </td>
-
-                    </tr>
-                    <tr data-node-id="4" data-node-pid="1">
-                        <td style="color:white"><a href="#"></a></td>
-                        <td style="color:white">module 4</td>
-                        <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link" href="java01.ppt"
-                                download>Download</a>
-                        </td>
-                        <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
-                                href="MAT2003_ Assignment 1_4CCS2.pdf">Read</a>
-                        </td>
-                    </tr>
-                    <tr data-node-id="1">
-                        <td class="pu-large" style="color:white"><a href="#">Microprocessors and microcontrollers
-                            </a></td>
-                        <td class="pu-large" style="color:white">module 1</td>
-                        <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
-                                href="CC/module-2.pptx" download>Download</a>
-                        </td>
-                        <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
-                                href="CC/module-2.pptx">Read</a>
-                        </td>
-
-                    <tr data-node-id="2" data-node-pid="1">
-                        <td style="color:white"><a href="#"></a></td>
-                        <td class="pu-large" style="color:white">module 2</td>
-                        <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link" href="java01.ppt"
-                                download>Download</a>
-                        </td>
-                        <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
-                                href="MAT2003_ Assignment 1_4CCS2.pdf">Read</a>
-                        </td>
-
-                    </tr>
-                    <tr data-node-id="3" data-node-pid="1">
-                        <td style="color:white"><a href="#"></a></td>
-                        <td style="color:white">module 3</td>
-                        <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link" href="java01.ppt"
-                                download>Download</a>
-                        </td>
-                        <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
-                                href="MAT2003_ Assignment 1_4CCS2.pdf">Read</a>
-                        </td>
-
-                    </tr>
-                    <tr data-node-id="4" data-node-pid="1">
-                        <td style="color:white"><a href="#"></a></td>
-                        <td style="color:white">module 4</td>
-                        <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link" href="java01.ppt"
-                                download>Download</a>
-                        </td>
-                        <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
-                                href="MAT2003_ Assignment 1_4CCS2.pdf">Read</a>
-                        </td>
-                    </tr>
-
-                    <tr data-node-id="1">
-                        <td class="pu-large" style="color:white"><a href="#">Computer organisation and architecture</a>
-                        </td>
-                        <td class="pu-large" style="color:white">module 1</td>
-                        <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
-                                href="CC/module-2.pptx" download>Download</a>
-                        </td>
-                        <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
-                                href="CC/module-2.pptx">Read</a>
-                        </td>
-
-                    <tr data-node-id="2" data-node-pid="1">
-                        <td style="color:white"><a href="#"></a></td>
-                        <td class="pu-large" style="color:white">module 2</td>
-                        <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link" href="java01.ppt"
-                                download>Download</a>
-                        </td>
-                        <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
-                                href="MAT2003_ Assignment 1_4CCS2.pdf">Read</a>
-                        </td>
-
-                    </tr>
-                    <tr data-node-id="3" data-node-pid="1">
-                        <td style="color:white"><a href="#"></a></td>
-                        <td style="color:white">module 3</td>
-                        <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link" href="java01.ppt"
-                                download>Download</a>
-                        </td>
-                        <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
-                                href="MAT2003_ Assignment 1_4CCS2.pdf">Read</a>
-                        </td>
-
-                    </tr>
-                    <tr data-node-id="4" data-node-pid="1">
-                        <td style="color:white"><a href="#"></a></td>
-                        <td style="color:white">module 4</td>
-                        <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link" href="java01.ppt"
-                                download>Download</a>
-                        </td>
-                        <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
-                                href="MAT2003_ Assignment 1_4CCS2.pdf">Read</a>
-                        </td>
-                    </tr>
-
-                    <tr data-node-id="1">
-                        <td class="pu-large" style="color:white"><a href="#">Advance java programming
-                            </a></td>
-                        <td class="pu-large" style="color:white">module 1</td>
-                        <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
-                                href="CC/module-2.pptx" download>Download</a>
-                        </td>
-                        <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
-                                href="CC/module-2.pptx">Read</a>
-                        </td>
-
-                    <tr data-node-id="2" data-node-pid="1">
-                        <td style="color:white"><a href="#"></a></td>
-                        <td class="pu-large" style="color:white">module 2</td>
-                        <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link" href="java01.ppt"
-                                download>Download</a>
-                        </td>
-                        <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
-                                href="MAT2003_ Assignment 1_4CCS2.pdf">Read</a>
-                        </td>
-
-                    </tr>
-                    <tr data-node-id="3" data-node-pid="1">
-                        <td style="color:white"><a href="#"></a></td>
-                        <td style="color:white">module 3</td>
-                        <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link" href="java01.ppt"
-                                download>Download</a>
-                        </td>
-                        <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
-                                href="MAT2003_ Assignment 1_4CCS2.pdf">Read</a>
-                        </td>
-
-                    </tr>
-                    <tr data-node-id="4" data-node-pid="1">
-                        <td style="color:white"><a href="#"></a></td>
-                        <td style="color:white">module 4</td>
-                        <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link" href="java01.ppt"
-                                download>Download</a>
-                        </td>
-                        <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
-                                href="MAT2003_ Assignment 1_4CCS2.pdf">Read</a>
-                        </td>
-                    </tr>
-
-                    <tr data-node-id="1">
-                        <td class="pu-large" style="color:white"><a href="#">C#
-                            </a></td>
-                        <td class="pu-large" style="color:white">module 1</td>
-                        <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
-                                href="CC/module-2.pptx" download>Download</a>
-                        </td>
-                        <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
-                                href="CC/module-2.pptx">Read</a>
-                        </td>
-
-                    <tr data-node-id="2" data-node-pid="1">
-                        <td style="color:white"><a href="#"></a></td>
-                        <td class="pu-large" style="color:white">module 2</td>
-                        <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link" href="java01.ppt"
-                                download>Download</a>
-                        </td>
-                        <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
-                                href="MAT2003_ Assignment 1_4CCS2.pdf">Read</a>
-                        </td>
-
-                    </tr>
-                    <tr data-node-id="3" data-node-pid="1">
-                        <td style="color:white"><a href="#"></a></td>
-                        <td style="color:white">module 3</td>
-                        <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link" href="java01.ppt"
-                                download>Download</a>
-                        </td>
-                        <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
-                                href="MAT2003_ Assignment 1_4CCS2.pdf">Read</a>
-                        </td>
-
-                    </tr>
-                    <tr data-node-id="4" data-node-pid="1">
-                        <td style="color:white"><a href="#"></a></td>
-                        <td style="color:white">module 4</td>
-                        <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link" href="java01.ppt"
-                                download>Download</a>
-                        </td>
-                        <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
-                                href="MAT2003_ Assignment 1_4CCS2.pdf">Read</a>
-                        </td>
-                    </tr>
-                    <tr data-node-id="1">
-                        <td class="pu-large" style="color:white"><a href="#">C++
-                            </a></td>
-                        <td class="pu-large" style="color:white">module 1</td>
-                        <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
-                                href="CC/module-2.pptx" download>Download</a>
-                        </td>
-                        <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
-                                href="CC/module-2.pptx">Read</a>
-                        </td>
-
-                    <tr data-node-id="2" data-node-pid="1">
-                        <td style="color:white"><a href="#"></a></td>
-                        <td class="pu-large" style="color:white">module 2</td>
-                        <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link" href="java01.ppt"
-                                download>Download</a>
-                        </td>
-                        <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
-                                href="MAT2003_ Assignment 1_4CCS2.pdf">Read</a>
-                        </td>
-
-                    </tr>
-                    <tr data-node-id="3" data-node-pid="1">
-                        <td style="color:white"><a href="#"></a></td>
-                        <td style="color:white">module 3</td>
-                        <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link" href="java01.ppt"
-                                download>Download</a>
-                        </td>
-                        <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
-                                href="MAT2003_ Assignment 1_4CCS2.pdf">Read</a>
-                        </td>
-
-                    </tr>
-                    <tr data-node-id="4" data-node-pid="1">
-                        <td style="color:white"><a href="#"></a></td>
-                        <td style="color:white">module 4</td>
-                        <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link" href="java01.ppt"
-                                download>Download</a>
-                        </td>
-                        <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
-                                href="MAT2003_ Assignment 1_4CCS2.pdf">Read</a>
-                        </td>
-                    </tr>
-                    <tr data-node-id="1">
-                        <td class="pu-large" style="color:white"><a href="#">Operating
-                                System</a></td>
-                        <td class="pu-large" style="color:white">module 1</td>
-                        <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
-                                href="CC/module-2.pptx" download>Download</a>
-                        </td>
-                        <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
-                                href="CC/module-2.pptx">Read</a>
-                        </td>
-
-                    <tr data-node-id="2" data-node-pid="1">
-                        <td style="color:white"><a href="#"></a></td>
-                        <td class="pu-large" style="color:white">module 2</td>
-                        <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link" href="java01.ppt"
-                                download>Download</a>
-                        </td>
-                        <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
-                                href="MAT2003_ Assignment 1_4CCS2.pdf">Read</a>
-                        </td>
-
-                    </tr>
-                    <tr data-node-id="3" data-node-pid="1">
-                        <td style="color:white"><a href="#"></a></td>
-                        <td style="color:white">module 3</td>
-                        <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link" href="java01.ppt"
-                                download>Download</a>
-                        </td>
-                        <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
-                                href="MAT2003_ Assignment 1_4CCS2.pdf">Read</a>
-                        </td>
-
-                    </tr>
-                    <tr data-node-id="4" data-node-pid="1">
-                        <td style="color:white"><a href="#"></a></td>
-                        <td style="color:white">module 4</td>
-                        <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link" href="java01.ppt"
-                                download>Download</a>
-                        </td>
-                        <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
-                                href="MAT2003_ Assignment 1_4CCS2.pdf">Read</a>
-                        </td>
-                    </tr>
+                                <button type="button" id="expander"
+                                        class="pu-button pu-hover-pink pu-large pu-round-xsmall pu-transparent link">Expand</button>
+                                <br>
+                                <button type="button" id="collapser"
+                                        class="pu-button pu-hover-pink pu-large pu-round-xsmall pu-transparent link">Collapse</button>
+                                <br><br>
+                                <table id="basic" border="2" class="table table-hover table-dark">
+                                        <tr data-node-id="2077">
+                                                <td class="pu-large"><a href="#">Mathematics</a></td>
+                                                <td class="pu-large">module 1</td>
+                                                <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
+                                                                href="Math/Module 1-Numerical solution of Algebraic and Transcendental Equations (1) (1).pdf"
+                                                                download>Download</a>
+                                                </td>
+                                                <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
+                                                                href="Math/Module 1-Numerical solution of Algebraic and Transcendental Equations (1) (1).pdf">Read</a>
+                                                </td>
 
 
+                                        </tr>
+                                        <tr data-node-id="2066" data-node-pid="2077">
+                                                <td style="color:white"><a href="#"></a></td>
+                                                <td class="pu-large" style="color:white">module 2</td>
+                                                <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
+                                                                href="" download>Download</a>
+                                                </td>
+                                                <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
+                                                                href="">Read</a>
+                                                </td>
 
+                                        </tr>
+                                        <tr data-node-id="2068" data-node-pid="2077">
+                                                <td style="color:white"><a href="#"></a></td>
+                                                <td class="pu-large" style="color:white">module 3</td>
+                                                <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
+                                                                href="" download>Download</a>
+                                                </td>
+                                                <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
+                                                                href="">Read</a>
+                                                </td>
+                                        </tr>
+                                        <tr data-node-id="2069" data-node-pid="2077">
+                                                <td style="color:white"><a href="#"></a></td>
+                                                <td style="color:white">module 4</td>
+                                                <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
+                                                                href="" download>Download</a>
+                                                </td>
+                                                <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
+                                                                href="">Read</a>
+                                                </td>
+                                        </tr>
 
+                                        <tr data-node-id="1">
+                                                <td class="pu-large" style="color:white"><a href="#">Data communication
+                                                                computer networks</a>
+                                                </td>
+                                                <td class="pu-large" style="color:white">module 1</td>
+                                                <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
+                                                                href="" download>Download</a>
+                                                </td>
+                                                <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
+                                                                href="">Read</a>
+                                                </td>
 
+                                        <tr data-node-id="2" data-node-pid="1">
+                                                <td style="color:white"><a href="#"></a></td>
+                                                <td class="pu-large" style="color:white">module 2</td>
+                                                <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
+                                                                href="" download>Download</a>
+                                                </td>
+                                                <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
+                                                                href="">Read</a>
+                                                </td>
 
+                                        </tr>
+                                        <tr data-node-id="3" data-node-pid="1">
+                                                <td style="color:white"><a href="#"></a></td>
+                                                <td style="color:white">module 3</td>
+                                                <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
+                                                                href="" download>Download</a>
+                                                </td>
+                                                <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
+                                                                href="">Read</a>
+                                                </td>
 
+                                        </tr>
+                                        <tr data-node-id="4" data-node-pid="1">
+                                                <td style="color:white"><a href="#"></a></td>
+                                                <td style="color:white">module 4</td>
+                                                <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
+                                                                href="" download>Download</a>
+                                                </td>
+                                                <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
+                                                                href="">Read</a>
+                                                </td>
+                                        </tr>
+                                        <tr data-node-id="1">
+                                                <td class="pu-large" style="color:white"><a href="#">Microprocessors and
+                                                                microcontrollers
+                                                        </a></td>
+                                                <td class="pu-large" style="color:white">module 1</td>
+                                                <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
+                                                                href="Micro/Module-1 ppt.pptx" download>Download</a>
+                                                </td>
+                                                <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
+                                                                href="Micro/Module-1 ppt.pptx">Read</a>
+                                                </td>
 
+                                        <tr data-node-id="2" data-node-pid="1">
+                                                <td style="color:white"><a href="#"></a></td>
+                                                <td class="pu-large" style="color:white">module 2</td>
+                                                <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
+                                                                href="" download>Download</a>
+                                                </td>
+                                                <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
+                                                                href="">Read</a>
+                                                </td>
 
+                                        </tr>
+                                        <tr data-node-id="3" data-node-pid="1">
+                                                <td style="color:white"><a href="#"></a></td>
+                                                <td style="color:white">module 3</td>
+                                                <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
+                                                                href="" download>Download</a>
+                                                </td>
+                                                <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
+                                                                href="">Read</a>
+                                                </td>
 
-                </table>
-                <script>
+                                        </tr>
+                                        <tr data-node-id="4" data-node-pid="1">
+                                                <td style="color:white"><a href="#"></a></td>
+                                                <td style="color:white">module 4</td>
+                                                <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
+                                                                href="" download>Download</a>
+                                                </td>
+                                                <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
+                                                                href="">Read</a>
+                                                </td>
+                                        </tr>
+
+                                        <tr data-node-id="1">
+                                                <td class="pu-large" style="color:white"><a href="#">Computer
+                                                                organisation and architecture</a>
+                                                </td>
+                                                <td class="pu-large" style="color:white">module 1</td>
+                                                <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
+                                                                href="COA/COA CSE 2009 Module 1.ppt"
+                                                                download>Download</a>
+                                                </td>
+                                                <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
+                                                                href="COA/COA CSE 2009 Module 1.ppt">Read</a>
+                                                </td>
+
+                                        <tr data-node-id="2" data-node-pid="1">
+                                                <td style="color:white"><a href="#"></a></td>
+                                                <td class="pu-large" style="color:white">module 2</td>
+                                                <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
+                                                                href="COA/COA CSE 2009 Module-2.ppt"
+                                                                download>Download</a>
+                                                </td>
+                                                <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
+                                                                href="COA/COA CSE 2009 Module-2.ppt">Read</a>
+                                                </td>
+
+                                        </tr>
+                                        <tr data-node-id="3" data-node-pid="1">
+                                                <td style="color:white"><a href="#"></a></td>
+                                                <td style="color:white">module 3</td>
+                                                <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
+                                                                href="" download>Download</a>
+                                                </td>
+                                                <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
+                                                                href="">Read</a>
+                                                </td>
+
+                                        </tr>
+                                        <tr data-node-id="4" data-node-pid="1">
+                                                <td style="color:white"><a href="#"></a></td>
+                                                <td style="color:white">module 4</td>
+                                                <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
+                                                                href="" download>Download</a>
+                                                </td>
+                                                <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
+                                                                href="">Read</a>
+                                                </td>
+                                        </tr>
+
+                                        <tr data-node-id="1">
+                                                <td class="pu-large" style="color:white"><a href="#">Advance java
+                                                                programming
+                                                        </a></td>
+                                                <td class="pu-large" style="color:white">module 1</td>
+                                                <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
+                                                                href="Ajava/Module 1 _CSE3146-Advanced Java Programming-PPTs.pptx"
+                                                                download>Download</a>
+                                                </td>
+                                                <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
+                                                                href="Ajava/Module 1 _CSE3146-Advanced Java Programming-PPTs.pptx">Read</a>
+                                                </td>
+
+                                        <tr data-node-id="2" data-node-pid="1">
+                                                <td style="color:white"><a href="#"></a></td>
+                                                <td class="pu-large" style="color:white">module 2</td>
+                                                <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
+                                                                href="" download>Download</a>
+                                                </td>
+                                                <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
+                                                                href="">Read</a>
+                                                </td>
+
+                                        </tr>
+                                        <tr data-node-id="3" data-node-pid="1">
+                                                <td style="color:white"><a href="#"></a></td>
+                                                <td style="color:white">module 3</td>
+                                                <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
+                                                                href="" download>Download</a>
+                                                </td>
+                                                <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
+                                                                href="">Read</a>
+                                                </td>
+
+                                        </tr>
+                                        <tr data-node-id="4" data-node-pid="1">
+                                                <td style="color:white"><a href="#"></a></td>
+                                                <td style="color:white">module 4</td>
+                                                <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
+                                                                href="" download>Download</a>
+                                                </td>
+                                                <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
+                                                                href="">Read</a>
+                                                </td>
+                                        </tr>
+
+                                        <tr data-node-id="1">
+                                                <td class="pu-large" style="color:white"><a href="#">C#
+                                                        </a></td>
+                                                <td class="pu-large" style="color:white">module 1</td>
+                                                <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
+                                                                href="C#/Module1.pptx" download>Download</a>
+                                                </td>
+                                                <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
+                                                                href="C#/Module1.pptx">Read</a>
+                                                </td>
+
+                                        <tr data-node-id="2" data-node-pid="1">
+                                                <td style="color:white"><a href="#"></a></td>
+                                                <td class="pu-large" style="color:white">module 2</td>
+                                                <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
+                                                                href="C#/C#firstchapterModule2.pptx"
+                                                                download>Download</a>
+                                                </td>
+                                                <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
+                                                                href="C#/C#firstchapterModule2.pptx">Read</a>
+                                                </td>
+
+                                        </tr>
+                                        <tr data-node-id="3" data-node-pid="1">
+                                                <td style="color:white"><a href="#"></a></td>
+                                                <td style="color:white">module 3</td>
+                                                <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
+                                                                href="" download>Download</a>
+                                                </td>
+                                                <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
+                                                                href="">Read</a>
+                                                </td>
+
+                                        </tr>
+                                        <tr data-node-id="4" data-node-pid="1">
+                                                <td style="color:white"><a href="#"></a></td>
+                                                <td style="color:white">module 4</td>
+                                                <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
+                                                                href="" download>Download</a>
+                                                </td>
+                                                <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
+                                                                href="">Read</a>
+                                                </td>
+                                        </tr>
+                                        <tr data-node-id="1">
+                                                <td class="pu-large" style="color:white"><a href="#">C++
+                                                        </a></td>
+                                                <td class="pu-large" style="color:white">module 1</td>
+                                                <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
+                                                                href="CC/module-2.pptx" download>Download</a>
+                                                </td>
+                                                <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
+                                                                href="CC/module-2.pptx">Read</a>
+                                                </td>
+
+                                        <tr data-node-id="2" data-node-pid="1">
+                                                <td style="color:white"><a href="#"></a></td>
+                                                <td class="pu-large" style="color:white">module 2</td>
+                                                <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
+                                                                href="" download>Download</a>
+                                                </td>
+                                                <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
+                                                                href="">Read</a>
+                                                </td>
+
+                                        </tr>
+                                        <tr data-node-id="3" data-node-pid="1">
+                                                <td style="color:white"><a href="#"></a></td>
+                                                <td style="color:white">module 3</td>
+                                                <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
+                                                                href="" download>Download</a>
+                                                </td>
+                                                <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
+                                                                href="">Read</a>
+                                                </td>
+
+                                        </tr>
+                                        <tr data-node-id="4" data-node-pid="1">
+                                                <td style="color:white"><a href="#"></a></td>
+                                                <td style="color:white">module 4</td>
+                                                <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
+                                                                href="" download>Download</a>
+                                                </td>
+                                                <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
+                                                                href="">Read</a>
+                                                </td>
+                                        </tr>
+                                        <tr data-node-id="1">
+                                                <td class="pu-large" style="color:white"><a href="#">Operating
+                                                                System</a></td>
+                                                <td class="pu-large" style="color:white">module 1</td>
+                                                <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
+                                                                href="OS/OS_Module1_2023.pptx" download>Download</a>
+                                                </td>
+                                                <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
+                                                                href="OS/OS_Module1_2023.pptx">Read</a>
+                                                </td>
+
+                                        <tr data-node-id="2" data-node-pid="1">
+                                                <td style="color:white"><a href="#"></a></td>
+                                                <td class="pu-large" style="color:white">module 2</td>
+                                                <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
+                                                                href="" download>Download</a>
+                                                </td>
+                                                <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
+                                                                href="">Read</a>
+                                                </td>
+
+                                        </tr>
+                                        <tr data-node-id="3" data-node-pid="1">
+                                                <td style="color:white"><a href="#"></a></td>
+                                                <td style="color:white">module 3</td>
+                                                <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
+                                                                href="" download>Download</a>
+                                                </td>
+                                                <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
+                                                                href="">Read</a>
+                                                </td>
+
+                                        </tr>
+                                        <tr data-node-id="4" data-node-pid="1">
+                                                <td style="color:white"><a href="#"></a></td>
+                                                <td style="color:white">module 4</td>
+                                                <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
+                                                                href="" download>Download</a>
+                                                </td>
+                                                <td><a class="pu-button pu-hover-pink pu-large pu-round-xlarge pu-yellow link"
+                                                                href="">Read</a>
+                                                </td>
+                                        </tr>
 
 
 
-                    $('#basic').simpleTreeTable({
-                        expander: $('#expander'),
-                        collapser: $('#collapser'),
-                        store: 'session',
-                        storeKey: 'simple-tree-table-basic'
-
-                    });
 
 
 
-                    $('#open1').on('click', function () {
-                        $('#basic').data('simple-tree-table').openByID("2077");
-                    });
-                    $('#close1').on('click', function () {
-                        $('#basic').data('simple-tree-table').closeByID("1");
-                    });
-
-                </script>
 
 
 
-            </form>
+
+                                </table>
+                                <script>
+
+
+
+                                        $('#basic').simpleTreeTable({
+                                                expander: $('#expander'),
+                                                collapser: $('#collapser'),
+                                                store: 'session',
+                                                storeKey: 'simple-tree-table-basic'
+
+                                        });
+
+
+
+                                        $('#open1').on('click', function () {
+                                                $('#basic').data('simple-tree-table').openByID("2077");
+                                        });
+                                        $('#close1').on('click', function () {
+                                                $('#basic').data('simple-tree-table').closeByID("1");
+                                        });
+
+                                </script>
+
+
+
+                        </form>
+                </div>
+
+
+                <!-- Footer. This section contains an ad for puSchools Spaces. You can leave it to support us. -->
+                <footer class="pu-container pu-center pu-padding-48 pu-margin-top">
+                        <a class="pu-margin-bottom" href="welcome.php" title="PU_STUDENTS" target="_self">
+                                <img style="filter: brightness(0) invert(1);"
+                                        src="https://i.ibb.co/RyQfzfn/low-res-logo.png" alt="low-res-logo" width="220"
+                                        height="50" class="center">
+                        </a>
+                        <!-- End footer -->
+                </footer>
+
+
         </div>
-
-
-        <!-- Footer. This section contains an ad for puSchools Spaces. You can leave it to support us. -->
-        <footer class="pu-container pu-center pu-padding-48 pu-margin-top">
-            <a class="pu-margin-bottom" href="welcome.php" title="PU_STUDENTS" target="_self">
-                <img style="filter: brightness(0) invert(1);" src="https://i.ibb.co/RyQfzfn/low-res-logo.png"
-                    alt="low-res-logo" width="220" height="50" class="center">
-            </a>
-            <!-- End footer -->
-        </footer>
-
-
-    </div>
 
 
 </body>
