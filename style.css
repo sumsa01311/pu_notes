@@ -167,6 +167,10 @@ p {
     min-width: 50% !important;
 }
 
+p {
+    padding-top: 60px;
+}
+
 @media (min-width: 1200px) {
     .container {
         max-width: 1400px;
