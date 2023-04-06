@@ -99,6 +99,10 @@ p {
         width: 100%;
         padding: max(1rvh, 1rem)
     }
+
+    table {
+        width: 95%;
+    }
 }
 
 .animated_rainbow_1 {
@@ -139,7 +143,7 @@ p {
 .container {
     width: 100%;
     margin: 0 auto;
-    padding-top: 40px;
+    padding-top: 50px;
 
     padding-right: 10px;
     padding-left: 10px;
