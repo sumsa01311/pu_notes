@@ -90,7 +90,7 @@ p {
 
         width: min(90%, 1000px);
         margin-inline: auto;
-       /* border: 2px solid #fff; */
+        /* border: 2px solid #fff; */
 
     }
 
@@ -100,6 +100,7 @@ p {
         padding: max(1rvh, 1rem)
     }
 }
+
 .animated_rainbow_1 {
     font-size: 12px;
     font-family: Arial Black, Gadget, sans-serif;
@@ -138,6 +139,7 @@ p {
 .container {
     width: 100%;
     margin: 0 auto;
+    padding-top: 40px;
 
     padding-right: 10px;
     padding-left: 10px;
